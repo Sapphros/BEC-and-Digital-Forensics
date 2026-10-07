@@ -1,5 +1,7 @@
 # BEC and Digital Forensics
 
+[![Python Tests](https://github.com/Sapphros/BEC-and-Digital-Forensics/actions/workflows/python-tests.yml/badge.svg)](https://github.com/Sapphros/BEC-and-Digital-Forensics/actions/workflows/python-tests.yml)
+
 A hands-on incident-response project investigating a controlled business email compromise (BEC) and vendor payment-diversion scenario using email analysis, Windows Sysmon telemetry, evidence hashing, Python automation, and forensic timeline reconstruction.
 
 The project demonstrates an end-to-end investigation workflow:
