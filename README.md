@@ -8,6 +8,25 @@ The project demonstrates an end-to-end investigation workflow:
 
 **preserve evidence -> verify integrity -> analyze email -> parse endpoint telemetry -> reconstruct activity -> distinguish signal from noise -> document findings**
 
+## Project Highlights
+
+- **61,607** Sysmon records processed from preserved endpoint evidence
+- **128** events isolated to the incident window
+- **6** high-value events retained in the normalized investigator timeline
+- **4** BEC indicators identified through automated email analysis
+- SHA-256 integrity verification performed before forensic analysis
+- False-positive context identified in persistence-labeled BAM telemetry
+- Consultant-style incident report produced with findings, limitations, and response recommendations
+- **5 automated tests** enforced through GitHub Actions CI
+
+### Review the Investigation
+
+- [Incident Report](reports/scenario-001-incident-report.md)
+- [Investigator Timeline](analysis/scenario-001/investigator_timeline.csv)
+- [Email Analysis](analysis/scenario-001/email_analysis.json)
+- [Analysis Code](analysis/scenario-001/)
+- [Automated Tests](tests/test_scenario_001.py)
+
 ## Skills Demonstrated
 
 - Business Email Compromise investigation
