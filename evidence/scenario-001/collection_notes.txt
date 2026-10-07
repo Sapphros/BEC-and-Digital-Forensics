@@ -1,0 +1,4 @@
+Evidence collected: 2026-10-06T22:26:25.5731343-06:00
+Hostname: WIN-TARGET-01
+User: sapphros-admin
+Scenario: BEC BEC/DFIR Scenario 001

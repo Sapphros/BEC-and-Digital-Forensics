@@ -1,0 +1,14 @@
+
+# Private forensic evidence
+*.evtx
+*.zip
+private-forensic-evidence/
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

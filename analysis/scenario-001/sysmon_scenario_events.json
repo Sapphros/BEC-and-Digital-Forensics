@@ -1,0 +1,2471 @@
+[
+  {
+    "timestamp": "2026-10-07T04:22:01.811223Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:01.805",
+      "ProcessGuid": "1998A503-C8E9-6AC5-EC01-000000001300",
+      "ProcessId": 9256,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "FileVersion": "10.0.26100.8328 (WinBuild.160101.0800)",
+      "Description": "Host Process for Windows Tasks",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "taskhostw.exe",
+      "CommandLine": "taskhostw.exe CreativeId:18=128000000001615609;CourtesyOverrideRuleName:4=none;",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=EA8D441DF237FB3D3B7A27A95FDE186E19C94D58A618F5C29ED5FC13CB155E96,IMPHASH=2196268E7A2880E3ADC74481297D0C4B",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 1580,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:01.850138Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:22:01.848",
+      "ProcessGuid": "1998A503-035C-6AC6-0F00-000000001300",
+      "ProcessId": 312,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+      "Details": "Binary Data",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:01.850594Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:01.847",
+      "ProcessGuid": "1998A503-C8E9-6AC5-ED01-000000001300",
+      "ProcessId": 1936,
+      "Image": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe",
+      "FileVersion": "2607.28001.0.0",
+      "Description": "-",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "SoftLandingTask.exe",
+      "CommandLine": "\"C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe\" -Embedding",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=92205264CEDDAA7F2120049EB0B34B4FB732FCE80BBE93016CCE3C0422135931,IMPHASH=41FAA649D6771CE7D2A185A37249990B",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:01.925680Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:01.921",
+      "ProcessGuid": "1998A503-C8E9-6AC5-EC01-000000001300",
+      "ProcessId": 9256,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:01.925924Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:01.925",
+      "ProcessGuid": "1998A503-C8E9-6AC5-ED01-000000001300",
+      "ProcessId": 1936,
+      "Image": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:01.926337Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:22:01.925",
+      "ProcessGuid": "1998A503-C8E9-6AC5-ED01-000000001300",
+      "ProcessId": 1936,
+      "Image": "C:\\WINDOWS\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SoftLandingTask\\SoftLandingTask.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:02.181934Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:21:58.864",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52919,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:07.541526Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:07.537",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "FileVersion": "10.0.26100.8328 (WinBuild.160101.0800)",
+      "Description": "Host Process for Windows Tasks",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "taskhostw.exe",
+      "CommandLine": "taskhostw.exe",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "System",
+      "Hashes": "SHA256=EA8D441DF237FB3D3B7A27A95FDE186E19C94D58A618F5C29ED5FC13CB155E96,IMPHASH=2196268E7A2880E3ADC74481297D0C4B",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 1580,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:07.716010Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:07.713",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EF01-000000001300",
+      "ProcessId": 9568,
+      "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "FileVersion": "10.0.26100.1 (WinBuild.160101.0800)",
+      "Description": "Background Task Host",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "backgroundTaskHost.exe",
+      "CommandLine": "\"C:\\WINDOWS\\system32\\BackgroundTaskHost.exe\" -ServerName:BackgroundTaskHost.WebAccountProvider",
+      "CurrentDirectory": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "AppContainer",
+      "Hashes": "SHA256=B7D2C17E0038945AA4B72AE7A89E54D29B04CCC0FEB62DF5C9B7B67DE43C2530,IMPHASH=DC601E2593053A84A6989DE251407AA7",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:07.778738Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:07.777",
+      "ProcessGuid": "1998A503-C8EF-6AC5-F001-000000001300",
+      "ProcessId": 2812,
+      "Image": "C:\\Windows\\System32\\RuntimeBroker.exe",
+      "FileVersion": "10.0.26100.9278 (WinBuild.160101.0800)",
+      "Description": "Runtime Broker",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "RuntimeBroker.exe",
+      "CommandLine": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=8DE24F8E51CC05DB2581B6240B834ACECBB0E012B8722CC3365F884D7BA4B409,IMPHASH=727E84782340C70318B730A9B06C87A4",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:07.835490Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:07.833",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EF01-000000001300",
+      "ProcessId": 9568,
+      "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.281792Z",
+    "event_id": 10,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "attack-t1003-lsass-access",
+      "UtcTime": "2026-10-07 04:22:08.279",
+      "SourceProcessGUID": "1998A503-035D-6AC6-1100-000000001300",
+      "SourceProcessId": 860,
+      "SourceThreadId": 10744,
+      "SourceImage": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetProcessGUID": "1998A503-035C-6AC6-0C00-000000001300",
+      "TargetProcessId": 840,
+      "TargetImage": "C:\\WINDOWS\\system32\\lsass.exe",
+      "GrantedAccess": "0x1000",
+      "CallTrace": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll+161284|C:\\WINDOWS\\System32\\KERNELBASE.dll+c0b1b|c:\\windows\\system32\\lsm.dll+25ef9|C:\\WINDOWS\\System32\\RPCRT4.dll+d3573|C:\\WINDOWS\\System32\\RPCRT4.dll+d570e|C:\\WINDOWS\\System32\\RPCRT4.dll+8a1ec|C:\\WINDOWS\\System32\\RPCRT4.dll+87b27|C:\\WINDOWS\\System32\\RPCRT4.dll+50f44|C:\\WINDOWS\\System32\\RPCRT4.dll+51f58|C:\\WINDOWS\\System32\\RPCRT4.dll+3f0e4|C:\\WINDOWS\\System32\\RPCRT4.dll+4f4ac|C:\\WINDOWS\\System32\\RPCRT4.dll+554ac|C:\\WINDOWS\\System32\\RPCRT4.dll+54633|C:\\WINDOWS\\System32\\RPCRT4.dll+535d8|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+19eee|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+1a843|C:\\WINDOWS\\System32\\KERNEL32.DLL+2cd87|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+acaec",
+      "SourceUser": "NT AUTHORITY\\SYSTEM",
+      "TargetUser": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.282039Z",
+    "event_id": 10,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "attack-t1003-lsass-access",
+      "UtcTime": "2026-10-07 04:22:08.279",
+      "SourceProcessGUID": "1998A503-035D-6AC6-1100-000000001300",
+      "SourceProcessId": 860,
+      "SourceThreadId": 10744,
+      "SourceImage": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetProcessGUID": "1998A503-035C-6AC6-0C00-000000001300",
+      "TargetProcessId": 840,
+      "TargetImage": "C:\\WINDOWS\\system32\\lsass.exe",
+      "GrantedAccess": "0x1000",
+      "CallTrace": "C:\\WINDOWS\\SYSTEM32\\ntdll.dll+161284|C:\\WINDOWS\\System32\\KERNELBASE.dll+c0b1b|c:\\windows\\system32\\lsm.dll+8c18|c:\\windows\\system32\\lsm.dll+26542|c:\\windows\\system32\\lsm.dll+2601d|C:\\WINDOWS\\System32\\RPCRT4.dll+d3573|C:\\WINDOWS\\System32\\RPCRT4.dll+d570e|C:\\WINDOWS\\System32\\RPCRT4.dll+8a1ec|C:\\WINDOWS\\System32\\RPCRT4.dll+87b27|C:\\WINDOWS\\System32\\RPCRT4.dll+50f44|C:\\WINDOWS\\System32\\RPCRT4.dll+51f58|C:\\WINDOWS\\System32\\RPCRT4.dll+3f0e4|C:\\WINDOWS\\System32\\RPCRT4.dll+4f4ac|C:\\WINDOWS\\System32\\RPCRT4.dll+554ac|C:\\WINDOWS\\System32\\RPCRT4.dll+54633|C:\\WINDOWS\\System32\\RPCRT4.dll+535d8|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+19eee|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+1a843|C:\\WINDOWS\\System32\\KERNEL32.DLL+2cd87|C:\\WINDOWS\\SYSTEM32\\ntdll.dll+acaec",
+      "SourceUser": "NT AUTHORITY\\SYSTEM",
+      "TargetUser": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.287202Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:08.284",
+      "ProcessGuid": "1998A503-C8F0-6AC5-F101-000000001300",
+      "ProcessId": 3392,
+      "Image": "C:\\Windows\\System32\\sppsvc.exe",
+      "FileVersion": "10.0.26100.9457 (WinBuild.160101.0800)",
+      "Description": "Microsoft Software Protection Platform Service",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "sppsvc.exe",
+      "CommandLine": "C:\\WINDOWS\\system32\\sppsvc.exe",
+      "CurrentDirectory": "C:\\WINDOWS",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "LogonGuid": "1998A503-035D-6AC6-E403-000000000000",
+      "LogonId": "0x3e4",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "System",
+      "Hashes": "SHA256=3AF9625287A5E8EA77A5B3F7989982C66231617476B9EBE9D22070E6F1D01E9F,IMPHASH=AC4B1BC493CCB31F6C7FB19A4074281A",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 820,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736067Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736091Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736134Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736313Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736353Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736394Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.736438Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\WINDOWS\\system32\\taskhostw.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:08.737035Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:08.735",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:09.101075Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:09.100",
+      "ProcessGuid": "1998A503-C8EF-6AC5-EE01-000000001300",
+      "ProcessId": 6904,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:10.370887Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:22:07.586",
+      "ProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ProcessId": 6904,
+      "Image": "<unknown process>",
+      "User": "-",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52920,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "172.215.188.225",
+      "DestinationHostname": "-",
+      "DestinationPort": 443,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:10.747680Z",
+    "event_id": 22,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:22:07.546",
+      "ProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ProcessId": 6904,
+      "QueryName": "settings-win.data.microsoft.com",
+      "QueryStatus": "0",
+      "QueryResults": "type: 5 atm-settingsfe-prod-geo2.trafficmanager.net;type: 5 settings-prod-scus-2-tagged.southcentralus.cloudapp.azure.com;::ffff:172.215.188.225;",
+      "Image": "<unknown process>",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:13.411539Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-programdata",
+      "UtcTime": "2026-10-07 04:22:13.411",
+      "ProcessGuid": "1998A503-C8CE-6AC5-EB01-000000001300",
+      "ProcessId": 3680,
+      "Image": "C:\\WINDOWS\\uus\\AMD64\\MoUsoCoreWorker.exe",
+      "TargetFilename": "C:\\ProgramData\\USOPrivate\\UpdateStore\\store.db-journal",
+      "CreationUtcTime": "2026-10-07 04:22:13.409",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:13.944277Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-programdata",
+      "UtcTime": "2026-10-07 04:22:13.943",
+      "ProcessGuid": "1998A503-C8CE-6AC5-EB01-000000001300",
+      "ProcessId": 3680,
+      "Image": "C:\\WINDOWS\\uus\\AMD64\\MoUsoCoreWorker.exe",
+      "TargetFilename": "C:\\ProgramData\\USOPrivate\\UpdateStore\\store.db-journal",
+      "CreationUtcTime": "2026-10-07 04:22:13.409",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:13.983204Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-programdata",
+      "UtcTime": "2026-10-07 04:22:13.981",
+      "ProcessGuid": "1998A503-C8CE-6AC5-EB01-000000001300",
+      "ProcessId": 3680,
+      "Image": "C:\\WINDOWS\\uus\\AMD64\\MoUsoCoreWorker.exe",
+      "TargetFilename": "C:\\ProgramData\\USOPrivate\\UpdateStore\\store.db-journal",
+      "CreationUtcTime": "2026-10-07 04:22:13.409",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:38.668214Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:38.666",
+      "ProcessGuid": "1998A503-C8F0-6AC5-F101-000000001300",
+      "ProcessId": 3392,
+      "Image": "C:\\Windows\\System32\\sppsvc.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:42.355706Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:22:38.885",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52921,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:45.084668Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:45.083",
+      "ProcessGuid": "1998A503-035F-6AC6-3400-000000001300",
+      "ProcessId": 2544,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:45.084862Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:45.083",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:45.146229Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:22:45.143",
+      "ProcessGuid": "1998A503-035F-6AC6-3400-000000001300",
+      "ProcessId": 2544,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:46.098738Z",
+    "event_id": 22,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:22:43.870",
+      "ProcessGuid": "1998A503-035F-6AC6-3400-000000001300",
+      "ProcessId": 2544,
+      "QueryName": "wpad",
+      "QueryStatus": "123",
+      "QueryResults": "-",
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:22:47.846328Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:22:47.844",
+      "ProcessGuid": "1998A503-C8EF-6AC5-F001-000000001300",
+      "ProcessId": 2812,
+      "Image": "C:\\Windows\\System32\\RuntimeBroker.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:09.393260Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:09.391",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:09.395119Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:09.393",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:09.395145Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:09.393",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:09.395312Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:09.393",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:09.395404Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:09.393",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:11.775258Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:23:08.422",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52922,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.19",
+      "DestinationHostname": "-",
+      "DestinationPort": 8000,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:11.775321Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:23:08.521",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52923,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.19",
+      "DestinationHostname": "-",
+      "DestinationPort": 8000,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:14.001795Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:23:14.000",
+      "ProcessGuid": "1998A503-C8CE-6AC5-EB01-000000001300",
+      "ProcessId": 3680,
+      "Image": "C:\\Windows\\UUS\\amd64\\MoUsoCoreWorker.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:22.279970Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:23:18.898",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52924,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.724170Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeHigh",
+      "Details": "QWORD (0x01dd561b-0xfed070fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.724472Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeEstimated",
+      "Details": "QWORD (0x01dd5613-0x9d0c08fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.724661Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeLow",
+      "Details": "QWORD (0x01dd560b-0x3b47a0fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.724844Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725022Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime\\SecureTimeTickCount",
+      "Details": "QWORD (0x00000000-0x0066bd54)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725230Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime\\SecureTimeConfidence",
+      "Details": "DWORD (0x00000008)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725397Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeHigh",
+      "Details": "QWORD (0x01dd561b-0xfed070fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725594Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeEstimated",
+      "Details": "QWORD (0x01dd5613-0x9d0c08fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725744Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\SecureTimeLow",
+      "Details": "QWORD (0x01dd560b-0x3b47a0fa)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.725908Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.726046Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime\\SecureTimeTickCount",
+      "Details": "QWORD (0x00000000-0x0066bd54)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:33.726228Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:23:33.722",
+      "ProcessGuid": "1998A503-035C-6AC6-0C00-000000001300",
+      "ProcessId": 840,
+      "Image": "C:\\WINDOWS\\system32\\lsass.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\W32Time\\SecureTimeLimits\\RunTime\\SecureTimeConfidence",
+      "Details": "DWORD (0x00000008)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:54.330306Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-downloads",
+      "UtcTime": "2026-10-07 04:23:54.328",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetFilename": "C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001",
+      "CreationUtcTime": "2026-10-07 04:23:54.328",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:54.343769Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-downloads",
+      "UtcTime": "2026-10-07 04:23:54.340",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetFilename": "C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Invoice_10482_Bank_Change.eml",
+      "CreationUtcTime": "2026-10-07 04:23:54.338",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:54.343788Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-downloads",
+      "UtcTime": "2026-10-07 04:23:54.340",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetFilename": "C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Northstar_ACH_Update.txt",
+      "CreationUtcTime": "2026-10-07 04:23:54.340",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:55.298801Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:23:55.286",
+      "ProcessGuid": "1998A503-C95B-6AC5-F201-000000001300",
+      "ProcessId": 8684,
+      "Image": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "FileVersion": "7.0.26100.9444 (WinBuild.160101.0800)",
+      "Description": "Microsoft Windows Search Protocol Host",
+      "Product": "Windows\u00ae Search",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "SearchProtocolHost.exe",
+      "CommandLine": "\"C:\\WINDOWS\\System32\\SearchProtocolHost.exe\" Global\\UsGthrFltPipeMssGthrPipe2_ Global\\UsGthrCtrlFltPipeMssGthrPipe2 1 -2147483646 \"Software\\Microsoft\\Windows Search\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)\" \"C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc\" \"DownLevelDaemon\" ",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "System",
+      "Hashes": "SHA256=42A58BA87739897B1AD2FC0CA56BAB558B07A446372DBAB437FF1E838D12D847,IMPHASH=B16AED6FB583BECE7E0158690F916FC1",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 8548,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:55.377328Z",
+    "event_id": 18,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "EventType": "ConnectPipe",
+      "UtcTime": "2026-10-07 04:23:55.377",
+      "ProcessGuid": "1998A503-C95B-6AC5-F201-000000001300",
+      "ProcessId": 8684,
+      "PipeName": "\\srvsvc",
+      "Image": "C:\\WINDOWS\\System32\\SearchProtocolHost.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:55.429275Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:23:55.416",
+      "ProcessGuid": "1998A503-C95B-6AC5-F301-000000001300",
+      "ProcessId": 4056,
+      "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+      "FileVersion": "7.0.26100.9444 (WinBuild.160101.0800)",
+      "Description": "Microsoft Windows Search Filter Host",
+      "Product": "Windows\u00ae Search",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "SearchFilterHost.exe",
+      "CommandLine": "\"C:\\WINDOWS\\System32\\SearchFilterHost.exe\" 936 2844 1080 920 {5E941D80-BF96-11CD-B579-08002B30BFEB}",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=3655FE9119840443AD5C0DCE72D93A9988108D4AD6AAB0B82E7C0FEE5417B6BA,IMPHASH=97E42CF07D4AC4FD0475B17E6370EBFA",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 8548,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:55.515164Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:23:55.510",
+      "ProcessGuid": "1998A503-C95B-6AC5-F401-000000001300",
+      "ProcessId": 4204,
+      "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+      "FileVersion": "7.0.26100.9444 (WinBuild.160101.0800)",
+      "Description": "Microsoft Windows Search Filter Host",
+      "Product": "Windows\u00ae Search",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "SearchFilterHost.exe",
+      "CommandLine": "\"C:\\WINDOWS\\System32\\SearchFilterHost.exe\" 936 2904 2916 920 {5645C8C4-E277-11CF-8FDA-00AA00A14F93}",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=3655FE9119840443AD5C0DCE72D93A9988108D4AD6AAB0B82E7C0FEE5417B6BA,IMPHASH=97E42CF07D4AC4FD0475B17E6370EBFA",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 8548,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:23:55.598224Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-downloads",
+      "UtcTime": "2026-10-07 04:23:55.596",
+      "ProcessGuid": "1998A503-C95B-6AC5-F201-000000001300",
+      "ProcessId": 8684,
+      "Image": "C:\\WINDOWS\\System32\\SearchProtocolHost.exe",
+      "TargetFilename": "C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Invoice_10482_Bank_Change.eml:OECustomProperty",
+      "CreationUtcTime": "2026-10-07 04:23:54.338",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:02.221998Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:23:58.910",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52925,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:11.992587Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:11.989",
+      "ProcessGuid": "1998A503-C96B-6AC5-F501-000000001300",
+      "ProcessId": 9920,
+      "Image": "C:\\Windows\\System32\\smartscreen.exe",
+      "FileVersion": "10.0.26100.9278 (WinBuild.160101.0800)",
+      "Description": "Windows Defender SmartScreen",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "smartscreen.exe",
+      "CommandLine": "C:\\Windows\\System32\\smartscreen.exe -Embedding",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=11F0BBE2201D0340A8BF5AEB7531B2D59FBF8CF091BDC3ED3FA5B985A0C58D0F,IMPHASH=3D967AE398FD13D8BAF1933856991799",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.119771Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:12.095",
+      "ProcessGuid": "1998A503-C96C-6AC5-F601-000000001300",
+      "ProcessId": 10964,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "FileVersion": "-",
+      "Description": "-",
+      "Product": "-",
+      "Company": "-",
+      "OriginalFileName": "-",
+      "CommandLine": "\"C:\\WINDOWS\\system32\\notepad.exe\" C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Invoice_10482_Bank_Change.eml ",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-0D92-070000000000",
+      "LogonId": "0x7920d",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "High",
+      "Hashes": "SHA256=03745E9E21684C0E6D9FDC50D91CAA0935F4BAF50F626C11987AB7D6991D58D1,IMPHASH=291277373F6983EE05FFF2D2E7FD7868",
+      "ParentProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ParentProcessId": 5724,
+      "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+      "ParentUser": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.240438Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:12.237",
+      "ProcessGuid": "1998A503-C96C-6AC5-F701-000000001300",
+      "ProcessId": 8068,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "FileVersion": "10.0.26100.8328 (WinBuild.160101.0800)",
+      "Description": "Host Process for Windows Tasks",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "taskhostw.exe",
+      "CommandLine": "taskhostw.exe",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "System",
+      "Hashes": "SHA256=EA8D441DF237FB3D3B7A27A95FDE186E19C94D58A618F5C29ED5FC13CB155E96,IMPHASH=2196268E7A2880E3ADC74481297D0C4B",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 1580,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.259055Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:12.255",
+      "ProcessGuid": "1998A503-C96C-6AC5-F801-000000001300",
+      "ProcessId": 6016,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "FileVersion": "-",
+      "Description": "-",
+      "Product": "-",
+      "Company": "-",
+      "OriginalFileName": "-",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe\" /SESSION:pF4Tage8h0y1x8ch6SU5YwFXQwA6AFwAVQBzAGUAcgBzAFwAcwBhAHAAcABoAHIAbwBzAC0AYQBkAG0AaQBuAFwARABvAHcAbgBsAG8AYQBkAHMAXABQAG8AbgBkAHUAcgBhAG4AYwBlAC0AUwBjAGUAbgBhAHIAaQBvAC0AMAAwADEAXABJAG4AdgBvAGkAYwBlAF8AMQAwADQAOAAyAF8AQgBhAG4AawBfAEMAaABhAG4AZwBlAC4AZQBtAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAHUKgAA1gEAADADAAAAAAAA",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-0D92-070000000000",
+      "LogonId": "0x7920d",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "High",
+      "Hashes": "SHA256=03745E9E21684C0E6D9FDC50D91CAA0935F4BAF50F626C11987AB7D6991D58D1,IMPHASH=291277373F6983EE05FFF2D2E7FD7868",
+      "ParentProcessGuid": "1998A503-C96C-6AC5-F601-000000001300",
+      "ParentProcessId": 10964,
+      "ParentImage": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "ParentCommandLine": "\"C:\\WINDOWS\\system32\\notepad.exe\" C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Invoice_10482_Bank_Change.eml ",
+      "ParentUser": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.317124Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:12.314",
+      "ProcessGuid": "1998A503-C96C-6AC5-F901-000000001300",
+      "ProcessId": 4940,
+      "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "FileVersion": "10.0.26100.1 (WinBuild.160101.0800)",
+      "Description": "Background Task Host",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "backgroundTaskHost.exe",
+      "CommandLine": "\"C:\\WINDOWS\\system32\\backgroundTaskHost.exe\" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca",
+      "CurrentDirectory": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "AppContainer",
+      "Hashes": "SHA256=B7D2C17E0038945AA4B72AE7A89E54D29B04CCC0FEB62DF5C9B7B67DE43C2530,IMPHASH=DC601E2593053A84A6989DE251407AA7",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.930402Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:12.909",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.930464Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:12.909",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:12.930509Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:12.909",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\SequenceNumber",
+      "Details": "DWORD (0x0000000f)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:13.092138Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:13.087",
+      "ProcessGuid": "1998A503-C96D-6AC5-FA01-000000001300",
+      "ProcessId": 6736,
+      "Image": "C:\\Windows\\System32\\dllhost.exe",
+      "FileVersion": "10.0.26100.9278 (WinBuild.160101.0800)",
+      "Description": "COM Surrogate",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "dllhost.exe",
+      "CommandLine": "C:\\WINDOWS\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-4F92-070000000000",
+      "LogonId": "0x7924f",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "Medium",
+      "Hashes": "SHA256=B154C30F8B2D3E41E58D1BCCD5916559A4DF11363E2325963C8641363A703F76,IMPHASH=8838E793D912DCA700DAEC2089A09E63",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 312,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:13.302658Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-programdata",
+      "UtcTime": "2026-10-07 04:24:13.297",
+      "ProcessGuid": "1998A503-035F-6AC6-4700-000000001300",
+      "ProcessId": 3544,
+      "Image": "C:\\WINDOWS\\System32\\svchost.exe",
+      "TargetFilename": "C:\\ProgramData\\Microsoft\\Diagnosis\\AggregatorStorage\\Triggers\\13894422788741241675_trigger.dat",
+      "CreationUtcTime": "2026-10-07 04:24:13.297",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:13.303833Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-programdata",
+      "UtcTime": "2026-10-07 04:24:13.297",
+      "ProcessGuid": "1998A503-035F-6AC6-4700-000000001300",
+      "ProcessId": 3544,
+      "Image": "C:\\WINDOWS\\System32\\svchost.exe",
+      "TargetFilename": "C:\\ProgramData\\Microsoft\\Diagnosis\\AggregatorStorage\\Triggers\\13894422788741241675_data.dat",
+      "CreationUtcTime": "2026-10-07 04:24:13.297",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:13.436444Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:13.435",
+      "ProcessGuid": "1998A503-C96C-6AC5-F701-000000001300",
+      "ProcessId": 8068,
+      "Image": "C:\\Windows\\System32\\taskhostw.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:13.570807Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:13.570",
+      "ProcessGuid": "1998A503-C96C-6AC5-F901-000000001300",
+      "ProcessId": 4940,
+      "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:18.346494Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:18.345",
+      "ProcessGuid": "1998A503-C96D-6AC5-FA01-000000001300",
+      "ProcessId": 6736,
+      "Image": "C:\\Windows\\System32\\dllhost.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:20.527012Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:20.518",
+      "ProcessGuid": "1998A503-C96C-6AC5-F601-000000001300",
+      "ProcessId": 10964,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:20.527096Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:20.518",
+      "ProcessGuid": "1998A503-C96C-6AC5-F601-000000001300",
+      "ProcessId": 10964,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:20.620339Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:20.618",
+      "ProcessGuid": "1998A503-C96C-6AC5-F801-000000001300",
+      "ProcessId": 6016,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:20.620895Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:20.620",
+      "ProcessGuid": "1998A503-C96C-6AC5-F801-000000001300",
+      "ProcessId": 6016,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.388423Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.382",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\DhcpInterfaceOptions",
+      "Details": "Binary Data",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.388724Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\DhcpIPAddress",
+      "Details": "192.168.122.175",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.388841Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\DhcpSubnetMask",
+      "Details": "255.255.255.0",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.388917Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\DhcpServer",
+      "Details": "192.168.122.1",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.391886Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\Lease",
+      "Details": "DWORD (0x00000e10)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393181Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\LeaseObtainedTime",
+      "Details": "DWORD (0x6ac5c97f)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393378Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\T1",
+      "Details": "DWORD (0x6ac5d011)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393471Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\T2",
+      "Details": "DWORD (0x6ac5d557)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393738Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\LeaseTerminatesTime",
+      "Details": "DWORD (0x6ac5d78f)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393818Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\AddressType",
+      "Details": "DWORD (0x00000000)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393896Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\IsServerNapAware",
+      "Details": "DWORD (0x00000000)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.393966Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\{8dd11141-dd20-4c36-989e-1eb9117ba44f}\\DhcpConnForceBroadcastFlag",
+      "Details": "DWORD (0x00000000)",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.394036Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\NetBT",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.394109Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.384",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\NetBT",
+      "User": "NT AUTHORITY\\LOCAL SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.395389Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.388",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.395503Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.388",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.395574Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.390",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.398683Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.396",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:31.402382Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:31.400",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\WINDOWS\\system32\\svchost.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:32.448281Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:30.162",
+      "ProcessGuid": "1998A503-035E-6AC6-3200-000000001300",
+      "ProcessId": 2376,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\LOCAL SERVICE",
+      "Protocol": "udp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 68,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.122.1",
+      "DestinationHostname": "-",
+      "DestinationPort": 67,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:32.448318Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:30.183",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "udp",
+      "Initiated": true,
+      "SourceIsIpv6": true,
+      "SourceIp": "fe80:0:0:0:e6ce:33b6:d62c:a84d",
+      "SourceHostname": "-",
+      "SourcePort": 64995,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": true,
+      "DestinationIp": "ff02:0:0:0:0:0:1:3",
+      "DestinationHostname": "-",
+      "DestinationPort": 5355,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:32.448331Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:30.183",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "udp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 64995,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "224.0.0.252",
+      "DestinationHostname": "-",
+      "DestinationPort": 5355,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:33.408245Z",
+    "event_id": 22,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:31.023",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "QueryName": "WIN-TARGET-01",
+      "QueryStatus": "1460",
+      "QueryResults": "-",
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:33.472169Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:30.606",
+      "ProcessGuid": "1998A503-035E-6AC6-2D00-000000001300",
+      "ProcessId": 2136,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "udp",
+      "Initiated": true,
+      "SourceIsIpv6": true,
+      "SourceIp": "fe80:0:0:0:e6ce:33b6:d62c:a84d",
+      "SourceHostname": "-",
+      "SourcePort": 64995,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": true,
+      "DestinationIp": "ff02:0:0:0:0:0:1:3",
+      "DestinationHostname": "-",
+      "DestinationPort": 5355,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.385718Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:36.383",
+      "ProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ProcessId": 5724,
+      "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.386285Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:36.381",
+      "ProcessGuid": "1998A503-C984-6AC5-FB01-000000001300",
+      "ProcessId": 9168,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "FileVersion": "-",
+      "Description": "-",
+      "Product": "-",
+      "Company": "-",
+      "OriginalFileName": "-",
+      "CommandLine": "\"C:\\WINDOWS\\system32\\notepad.exe\" C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Northstar_ACH_Update.txt ",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-0D92-070000000000",
+      "LogonId": "0x7920d",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "High",
+      "Hashes": "SHA256=03745E9E21684C0E6D9FDC50D91CAA0935F4BAF50F626C11987AB7D6991D58D1,IMPHASH=291277373F6983EE05FFF2D2E7FD7868",
+      "ParentProcessGuid": "1998A503-B148-6AC5-4C01-000000001300",
+      "ParentProcessId": 5724,
+      "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+      "ParentUser": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.452641Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:36.450",
+      "ProcessGuid": "1998A503-C984-6AC5-FB01-000000001300",
+      "ProcessId": 9168,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.453208Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:36.449",
+      "ProcessGuid": "1998A503-C984-6AC5-FC01-000000001300",
+      "ProcessId": 3268,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "FileVersion": "-",
+      "Description": "-",
+      "Product": "-",
+      "Company": "-",
+      "OriginalFileName": "-",
+      "CommandLine": "\"C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe\" /SESSION:fg+9HE3HQ0aFZyKS4bb1BwFSQwA6AFwAVQBzAGUAcgBzAFwAcwBhAHAAcABoAHIAbwBzAC0AYQBkAG0AaQBuAFwARABvAHcAbgBsAG8AYQBkAHMAXABQAG8AbgBkAHUAcgBhAG4AYwBlAC0AUwBjAGUAbgBhAHIAaQBvAC0AMAAwADEAXABOAG8AcgB0AGgAcwB0AGEAcgBfAEEAQwBIAF8AVQBwAGQAYQB0AGUALgB0AHgAdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAdAjAABbAQAArAAAAAAAAAA=",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "WIN-TARGET-01\\sapphros-admin",
+      "LogonGuid": "1998A503-0364-6AC6-0D92-070000000000",
+      "LogonId": "0x7920d",
+      "TerminalSessionId": 1,
+      "IntegrityLevel": "High",
+      "Hashes": "SHA256=03745E9E21684C0E6D9FDC50D91CAA0935F4BAF50F626C11987AB7D6991D58D1,IMPHASH=291277373F6983EE05FFF2D2E7FD7868",
+      "ParentProcessGuid": "1998A503-C984-6AC5-FB01-000000001300",
+      "ParentProcessId": 9168,
+      "ParentImage": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "ParentCommandLine": "\"C:\\WINDOWS\\system32\\notepad.exe\" C:\\Users\\sapphros-admin\\Downloads\\BEC-Scenario-001\\Northstar_ACH_Update.txt ",
+      "ParentUser": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.684028Z",
+    "event_id": 12,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "CreateKey",
+      "UtcTime": "2026-10-07 04:24:36.633",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.684078Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:36.633",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:36.689985Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:36.682",
+      "ProcessGuid": "1998A503-0359-6AC6-EB03-000000000000",
+      "ProcessId": 4,
+      "Image": "System",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\SequenceNumber",
+      "Details": "DWORD (0x00000010)",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:42.227120Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:24:38.925",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52926,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:47.692478Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:47.689",
+      "ProcessGuid": "1998A503-C984-6AC5-FB01-000000001300",
+      "ProcessId": 9168,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:47.695465Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:47.691",
+      "ProcessGuid": "1998A503-C984-6AC5-FB01-000000001300",
+      "ProcessId": 9168,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:47.747487Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:24:47.745",
+      "ProcessGuid": "1998A503-C984-6AC5-FC01-000000001300",
+      "ProcessId": 3268,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:24:47.747780Z",
+    "event_id": 13,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "persistence-services",
+      "EventType": "SetValue",
+      "UtcTime": "2026-10-07 04:24:47.747",
+      "ProcessGuid": "1998A503-C984-6AC5-FC01-000000001300",
+      "ProcessId": 3268,
+      "Image": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe",
+      "TargetObject": "HKLM\\System\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\S-1-5-21-2620636624-428462497-3851630612-1001\\Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+      "Details": "Binary Data",
+      "User": "WIN-TARGET-01\\sapphros-admin"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:22.369726Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:25:18.945",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52927,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:41.697671Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:25:41.696",
+      "ProcessGuid": "1998A503-C95B-6AC5-F301-000000001300",
+      "ProcessId": 4056,
+      "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:41.713646Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:25:41.712",
+      "ProcessGuid": "1998A503-C95B-6AC5-F401-000000001300",
+      "ProcessId": 4204,
+      "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:51.300286Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:25:51.299",
+      "ProcessGuid": "1998A503-C95B-6AC5-F201-000000001300",
+      "ProcessId": 8684,
+      "Image": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:58.363817Z",
+    "event_id": 1,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:25:58.359",
+      "ProcessGuid": "1998A503-C9D6-6AC5-FD01-000000001300",
+      "ProcessId": 10692,
+      "Image": "C:\\Windows\\System32\\wermgr.exe",
+      "FileVersion": "10.0.26100.9444 (WinBuild.160101.0800)",
+      "Description": "Windows Problem Reporting",
+      "Product": "Microsoft\u00ae Windows\u00ae Operating System",
+      "Company": "Microsoft Corporation",
+      "OriginalFileName": "WerMgr",
+      "CommandLine": "\"C:\\WINDOWS\\system32\\wermgr.exe\" -upload",
+      "CurrentDirectory": "C:\\WINDOWS\\system32\\",
+      "User": "NT AUTHORITY\\SYSTEM",
+      "LogonGuid": "1998A503-035C-6AC6-E703-000000000000",
+      "LogonId": "0x3e7",
+      "TerminalSessionId": 0,
+      "IntegrityLevel": "System",
+      "Hashes": "SHA256=C9B2E514C0378EB2D05F791E1034E7A6C704199FD05C5D56376852A6D410C056,IMPHASH=0663EFB87019D0AFFBAD3D2E9FE1CD61",
+      "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+      "ParentProcessId": 1580,
+      "ParentImage": "-",
+      "ParentCommandLine": "-",
+      "ParentUser": "-"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:58.384596Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-temp",
+      "UtcTime": "2026-10-07 04:25:58.383",
+      "ProcessGuid": "1998A503-C9D6-6AC5-FD01-000000001300",
+      "ProcessId": 10692,
+      "Image": "C:\\WINDOWS\\system32\\wermgr.exe",
+      "TargetFilename": "C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\d9fb00df-dbe6-4563-953e-42447a1e7de0",
+      "CreationUtcTime": "2026-10-07 04:25:58.383",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:58.388283Z",
+    "event_id": 11,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "staging-temp",
+      "UtcTime": "2026-10-07 04:25:58.387",
+      "ProcessGuid": "1998A503-C9D6-6AC5-FD01-000000001300",
+      "ProcessId": 10692,
+      "Image": "C:\\WINDOWS\\system32\\wermgr.exe",
+      "TargetFilename": "C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\1e91404b-c83c-426a-b968-9b67b4eadaa3",
+      "CreationUtcTime": "2026-10-07 04:25:58.387",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:25:58.422500Z",
+    "event_id": 5,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 04:25:58.421",
+      "ProcessGuid": "1998A503-C9D6-6AC5-FD01-000000001300",
+      "ProcessId": 10692,
+      "Image": "C:\\Windows\\System32\\wermgr.exe",
+      "User": "NT AUTHORITY\\SYSTEM"
+    }
+  },
+  {
+    "timestamp": "2026-10-07T04:26:02.386084Z",
+    "event_id": 3,
+    "provider": "Microsoft-Windows-Sysmon",
+    "computer": "WIN-TARGET-01",
+    "data": {
+      "RuleName": "-",
+      "UtcTime": "2026-10-07 10:25:58.961",
+      "ProcessGuid": "1998A503-03D8-6AC6-F900-000000001300",
+      "ProcessId": 3576,
+      "Image": "C:\\Windows\\System32\\svchost.exe",
+      "User": "NT AUTHORITY\\NETWORK SERVICE",
+      "Protocol": "tcp",
+      "Initiated": true,
+      "SourceIsIpv6": false,
+      "SourceIp": "192.168.122.175",
+      "SourceHostname": "-",
+      "SourcePort": 52928,
+      "SourcePortName": "-",
+      "DestinationIsIpv6": false,
+      "DestinationIp": "192.168.1.3",
+      "DestinationHostname": "-",
+      "DestinationPort": 7680,
+      "DestinationPortName": "-"
+    }
+  }
+]

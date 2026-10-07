@@ -1,0 +1,7 @@
+timestamp,category,action,evidence,assessment
+2026-10-07T04:23:54.330306Z,Artifact placement,Scenario directory created,C:\Users\sapphros-admin\Downloads\BEC-Scenario-001,Controlled lab preparation/activity.
+2026-10-07T04:23:54.343769Z,Artifact placement,Suspicious email artifact placed in Downloads,C:\Users\sapphros-admin\Downloads\BEC-Scenario-001\Invoice_10482_Bank_Change.eml,Email artifact became available to the simulated user.
+2026-10-07T04:23:54.343788Z,Artifact placement,ACH-update attachment placed in Downloads,C:\Users\sapphros-admin\Downloads\BEC-Scenario-001\Northstar_ACH_Update.txt,Controlled BEC attachment staged for user interaction.
+2026-10-07T04:23:55.598224Z,System activity,Windows Search indexed the email artifact,C:\Users\sapphros-admin\Downloads\BEC-Scenario-001\Invoice_10482_Bank_Change.eml:OECustomProperty,Background indexing activity; not evidence of user execution.
+2026-10-07T04:24:12.119771Z,User interaction,User opened suspicious email artifact,"""C:\WINDOWS\system32\notepad.exe"" C:\Users\sapphros-admin\Downloads\BEC-Scenario-001\Invoice_10482_Bank_Change.eml ",Confirmed by Sysmon process creation telemetry.
+2026-10-07T04:24:36.386285Z,User interaction,User opened ACH-update attachment,"""C:\WINDOWS\system32\notepad.exe"" C:\Users\sapphros-admin\Downloads\BEC-Scenario-001\Northstar_ACH_Update.txt ",Confirmed attachment interaction; no malicious code execution occurred.

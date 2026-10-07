@@ -1,0 +1,43 @@
+{
+  "file": "Invoice_10482_Bank_Change.eml",
+  "sha256": "77b36abf4527e0e5e535d07c17f12293f2a219eff0da6ff3f54e27c0e8c20514",
+  "headers": {
+    "from": "Northstar Supply Accounts Receivable <billing@northstar-supply.test>",
+    "to": "Finance Department <finance@sapphros.test>",
+    "reply_to": "northstar-payments@payment-update.test",
+    "subject": "ACTION REQUIRED: Updated ACH Details - Invoice 10482",
+    "date": "Wed, 07 Oct 2026 04:22:16 +0000",
+    "message_id": "<179134693675.3080.10430465936472916992@northstar-supply.test>"
+  },
+  "body": "Hello,\n\nPlease note that our banking information has changed.\n\nThe attached payment instructions should be used for Invoice 10482.\nPlease update your records before processing payment.\n\nPlease reply once the banking information has been updated.\n\nRegards,\nAccounts Receivable\nNorthstar Supply\n",
+  "attachments": [
+    {
+      "filename": "Northstar_ACH_Update.txt",
+      "content_type": "text/plain",
+      "size": 253,
+      "sha256": "73873d91b244fb7d26edfa36bcbe9e6237311df5d995fec546ec31bf8333678c"
+    }
+  ],
+  "indicators": [
+    {
+      "type": "reply-to mismatch",
+      "value": "northstar-payments@payment-update.test",
+      "assessment": "Reply-To differs from the apparent sender identity."
+    },
+    {
+      "type": "financial urgency",
+      "value": "ACTION REQUIRED: Updated ACH Details - Invoice 10482",
+      "assessment": "Subject uses payment-related urgency commonly seen in BEC/payment-diversion attempts."
+    },
+    {
+      "type": "bank-change request",
+      "value": "Banking information changed",
+      "assessment": "Message requests modification of existing payment instructions."
+    },
+    {
+      "type": "confirmation request",
+      "value": "Reply once banking information has been updated",
+      "assessment": "Sender requests confirmation after the payment change is completed."
+    }
+  ]
+}

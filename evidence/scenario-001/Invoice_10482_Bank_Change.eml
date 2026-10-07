@@ -1,0 +1,39 @@
+From: Northstar Supply Accounts Receivable <billing@northstar-supply.test>
+To: Finance Department <finance@sapphros.test>
+Reply-To: northstar-payments@payment-update.test
+Subject: ACTION REQUIRED: Updated ACH Details - Invoice 10482
+Date: Wed, 07 Oct 2026 04:22:16 +0000
+Message-ID: <179134693675.3080.10430465936472916992@northstar-supply.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3174338982238962016=="
+
+--===============3174338982238962016==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Please note that our banking information has changed.
+
+The attached payment instructions should be used for Invoice 10482.
+Please update your records before processing payment.
+
+Please reply once the banking information has been updated.
+
+Regards,
+Accounts Receivable
+Northstar Supply
+
+--===============3174338982238962016==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Northstar_ACH_Update.txt"
+MIME-Version: 1.0
+
+Tk9SVEhTVEFSIFNVUFBMWQpVcGRhdGVkIEFDSCBQYXltZW50IEluc3RydWN0aW9ucwoKRWZmZWN0
+aXZlIGltbWVkaWF0ZWx5LCBwbGVhc2UgdXNlIHRoZSBmb2xsb3dpbmcgcGF5bWVudCBpbmZvcm1h
+dGlvbgpmb3IgSW52b2ljZSAxMDQ4Mi4KCkJhbms6IFNhcHBocm9zIExhYiBCYW5rClJvdXRpbmc6
+IDAwMDAwMDAwMApBY2NvdW50OiAwMDAwMDAwMDAwCgpMQUIgQVJUSUZBQ1QgT05MWSAtIE5PIFJF
+QUwgRklOQU5DSUFMIElORk9STUFUSU9OCg==
+
+--===============3174338982238962016==--
