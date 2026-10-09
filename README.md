@@ -8,6 +8,21 @@ The project demonstrates an end-to-end investigation workflow:
 
 **preserve evidence -> verify integrity -> analyze email -> parse endpoint telemetry -> reconstruct activity -> distinguish signal from noise -> document findings**
 
+## Skills Demonstrated
+
+- **BEC and incident response:** investigate vendor impersonation, payment-diversion
+  requests, and simulated mailbox account compromise.
+- **Digital forensics and evidence handling:** verify SHA-256 manifests before
+  analysis and keep original evidence separate from sanitized portfolio artifacts.
+- **Email and Windows analysis:** inspect headers and attachments, parse Sysmon
+  event logs, and distinguish user actions from background activity.
+- **Cloud identity and mailbox analysis:** correlate synthetic authentication and
+  mailbox-audit records using session identifiers and source addresses.
+- **Python security automation:** analyze email indicators and normalize endpoint
+  and mailbox events into investigator-facing timelines.
+- **Detection validation and reporting:** assess rule labels against underlying
+  evidence and document findings, response recommendations, and evidence gaps.
+
 ## Project Highlights
 
 - **61,607** Sysmon records processed from preserved endpoint evidence
@@ -27,21 +42,6 @@ The project demonstrates an end-to-end investigation workflow:
 - [Email Analysis](analysis/scenario-001/email_analysis.json)
 - [Analysis Code](analysis/scenario-001/)
 - [Automated Tests](tests/test_scenario_001.py)
-
-## Skills Demonstrated
-
-- Business Email Compromise investigation
-- Digital forensics and evidence handling
-- Incident response
-- Email header and attachment analysis
-- Windows Sysmon analysis
-- Windows event-log parsing
-- Python automation
-- Forensic timeline reconstruction
-- SHA-256 integrity verification
-- Detection validation
-- Analyst-driven false-positive assessment
-- Technical incident reporting
 
 ## Scenario 001 - Vendor Payment Diversion
 
@@ -292,16 +292,27 @@ If mailbox compromise were confirmed, additional response actions would include 
 
 ## What I Learned
 
-This project reinforced several practical incident-response lessons:
-
-- establish evidence integrity before analysis
-- distinguish what the evidence proves from what remains unknown
-- validate detection logic against underlying telemetry
-- separate operating-system background activity from user actions
-- recognize that user interaction does not automatically imply malware execution
-- understand that BEC may primarily be a financial-fraud and identity investigation rather than a malware investigation
-- normalize noisy endpoint telemetry into a concise investigator-facing timeline
-- preserve original evidence separately from public portfolio artifacts
+- **Verify integrity before interpreting evidence.** SHA-256 manifest checks
+  establish that the transferred artifacts match the acquired evidence.
+- **A detection label is a starting point.** The persistence-labeled registry
+  events in Scenario 001 represented BAM state, not established persistence.
+- **File access is not always a user action.** Windows Search indexing and
+  Notepad `/SESSION:` child processes needed context before building the
+  six-event investigator timeline.
+- **BEC does not require malware.** The payment-diversion email and plain-text
+  attachment supported a social-engineering investigation without establishing
+  endpoint compromise.
+- **Correlate identity and mailbox evidence.** In Scenario 002, a shared session
+  identifier and source address connected suspicious authentication to inbox
+  rules, forwarding, fraudulent email, and deletion from Sent Items.
+- **Keep observations separate from hypotheses.** `satisfied_by_token_claim`
+  did not establish token theft or MFA bypass, and mailbox compromise did not
+  establish workstation compromise.
+- **Preserve detail while making findings readable.** Python normalization
+  produced concise timelines while retaining the supporting parsed telemetry;
+  the incident reports explain both conclusions and evidence gaps.
+- **Synthetic exercises have defined limits.** Scenario 002 demonstrates analysis
+  of generated cloud evidence, not investigation of a real Microsoft 365 tenant.
 
 ## Testing
 
