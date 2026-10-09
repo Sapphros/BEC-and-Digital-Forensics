@@ -1,0 +1,151 @@
+{
+  "summary": {
+    "target_user": "finance@sapphros.test",
+    "known_good_ips": [
+      "198.51.100.25"
+    ],
+    "known_good_devices": [
+      "FIN-WS01"
+    ],
+    "suspicious_sessions": [
+      "sess-attack-001"
+    ],
+    "timeline_event_count": 10,
+    "finding_count": 5,
+    "assessment": "Evidence supports mailbox account compromise. A suspicious successful authentication session was followed by mailbox access, creation of an invoice-hiding inbox rule, external forwarding configuration, a fraudulent outbound payment-change message, and deletion of that sent message. The available evidence establishes malicious mailbox activity but does not establish the original mechanism by which the attacker obtained the valid session or token."
+  },
+  "findings": [
+    {
+      "severity": "Critical",
+      "title": "Suspicious successful authentication",
+      "evidence": "203.0.113.77 | Frankfurt, DE | MFA=satisfied_by_token_claim | DeviceCompliant=false",
+      "assessment": "Successful authentication originated from an unusual location and non-compliant unidentified device. MFA was recorded as 'satisfied_by_token_claim'; this is consistent with session/token reuse but does not by itself prove how the token was obtained."
+    },
+    {
+      "severity": "High",
+      "title": "Suspicious inbox rule created",
+      "evidence": "SubjectContainsWords=invoice,payment;MoveToFolder=RSS Feeds;MarkAsRead=True",
+      "assessment": "Inbox rule created from suspicious session. Rule targets invoice/payment messages and moves them while marking them read."
+    },
+    {
+      "severity": "Critical",
+      "title": "External mailbox forwarding enabled",
+      "evidence": "ForwardingSmtpAddress=payments-review@external-mail.test;DeliverToMailboxAndForward=True",
+      "assessment": "External forwarding configured from suspicious session, allowing mailbox content to be copied to an external address."
+    },
+    {
+      "severity": "Critical",
+      "title": "Fraudulent email sent from compromised mailbox",
+      "evidence": "To=billing@northstar-supply.test;Subject=Updated ACH Details - Invoice 10482",
+      "assessment": "Message sent from legitimate mailbox during suspicious session."
+    },
+    {
+      "severity": "High",
+      "title": "Fraudulent sent message deleted",
+      "evidence": "Deleted fraudulent message from Sent Items",
+      "assessment": "Sent message deleted during suspicious session, consistent with an attempt to conceal outbound activity."
+    }
+  ],
+  "timeline": [
+    {
+      "timestamp": "2026-10-07T14:02:41Z",
+      "source": "authentication",
+      "category": "Suspicious authentication",
+      "operation": "failure",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "",
+      "details": "IP not observed in known-good compliant activity; Non-compliant or unidentified device; Risk detail: invalid_password; Unusual location: Frankfurt, DE"
+    },
+    {
+      "timestamp": "2026-10-07T14:03:12Z",
+      "source": "authentication",
+      "category": "Suspicious authentication",
+      "operation": "success",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "IP not observed in known-good compliant activity; Non-compliant or unidentified device; Risk detail: unfamiliar_signin_properties; Unusual location: Frankfurt, DE"
+    },
+    {
+      "timestamp": "2026-10-07T14:04:05Z",
+      "source": "authentication",
+      "category": "Suspicious authentication",
+      "operation": "success",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "IP not observed in known-good compliant activity; Non-compliant or unidentified device; Risk detail: unfamiliar_signin_properties; Unusual location: Frankfurt, DE"
+    },
+    {
+      "timestamp": "2026-10-07T14:04:38Z",
+      "source": "mailbox_audit",
+      "category": "Mailbox access",
+      "operation": "MailItemsAccessed",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "Inbox | Accessed recent invoice and vendor conversations | Mailbox content accessed from suspicious session."
+    },
+    {
+      "timestamp": "2026-10-07T14:05:21Z",
+      "source": "mailbox_audit",
+      "category": "Mailbox persistence / concealment",
+      "operation": "New-InboxRule",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "Invoice Archive | SubjectContainsWords=invoice,payment;MoveToFolder=RSS Feeds;MarkAsRead=True | Inbox rule created from suspicious session. Rule targets invoice/payment messages and moves them while marking them read."
+    },
+    {
+      "timestamp": "2026-10-07T14:06:03Z",
+      "source": "mailbox_audit",
+      "category": "Mailbox persistence / forwarding",
+      "operation": "Set-Mailbox",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "finance@sapphros.test | ForwardingSmtpAddress=payments-review@external-mail.test;DeliverToMailboxAndForward=True | External forwarding configured from suspicious session, allowing mailbox content to be copied to an external address."
+    },
+    {
+      "timestamp": "2026-10-07T14:09:44Z",
+      "source": "mailbox_audit",
+      "category": "Mailbox access",
+      "operation": "MailItemsAccessed",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "Vendor conversation: Northstar Supply | Read existing Invoice 10482 conversation | Mailbox content accessed from suspicious session."
+    },
+    {
+      "timestamp": "2026-10-07T14:11:47Z",
+      "source": "authentication",
+      "category": "Suspicious authentication",
+      "operation": "success",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "IP not observed in known-good compliant activity; Non-compliant or unidentified device; Risk detail: unfamiliar_signin_properties; Unusual location: Frankfurt, DE"
+    },
+    {
+      "timestamp": "2026-10-07T14:12:16Z",
+      "source": "mailbox_audit",
+      "category": "Fraudulent outbound activity",
+      "operation": "Send",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "<scenario002-payment-change@sapphros.test> | To=billing@northstar-supply.test;Subject=Updated ACH Details - Invoice 10482 | Message sent from legitimate mailbox during suspicious session."
+    },
+    {
+      "timestamp": "2026-10-07T14:15:31Z",
+      "source": "mailbox_audit",
+      "category": "Anti-forensics / concealment",
+      "operation": "SoftDelete",
+      "user": "finance@sapphros.test",
+      "ip_address": "203.0.113.77",
+      "session_id": "sess-attack-001",
+      "details": "<scenario002-payment-change@sapphros.test> | Deleted fraudulent message from Sent Items | Sent message deleted during suspicious session, consistent with an attempt to conceal outbound activity."
+    }
+  ]
+}

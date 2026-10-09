@@ -1,0 +1,9 @@
+timestamp,user,operation,client_ip,user_agent,object,parameters,result,session_id
+2026-10-07T13:56:02Z,finance@sapphros.test,MailItemsAccessed,198.51.100.25,Microsoft Outlook / Windows 11,Inbox,Normal mailbox access,success,sess-legit-001
+2026-10-07T14:04:38Z,finance@sapphros.test,MailItemsAccessed,203.0.113.77,Chrome 154 / Linux,Inbox,Accessed recent invoice and vendor conversations,success,sess-attack-001
+2026-10-07T14:05:21Z,finance@sapphros.test,New-InboxRule,203.0.113.77,Chrome 154 / Linux,Invoice Archive,"SubjectContainsWords=invoice,payment;MoveToFolder=RSS Feeds;MarkAsRead=True",success,sess-attack-001
+2026-10-07T14:06:03Z,finance@sapphros.test,Set-Mailbox,203.0.113.77,Chrome 154 / Linux,finance@sapphros.test,ForwardingSmtpAddress=payments-review@external-mail.test;DeliverToMailboxAndForward=True,success,sess-attack-001
+2026-10-07T14:09:44Z,finance@sapphros.test,MailItemsAccessed,203.0.113.77,Chrome 154 / Linux,Vendor conversation: Northstar Supply,Read existing Invoice 10482 conversation,success,sess-attack-001
+2026-10-07T14:12:16Z,finance@sapphros.test,Send,203.0.113.77,Chrome 154 / Linux,<scenario002-payment-change@sapphros.test>,To=billing@northstar-supply.test;Subject=Updated ACH Details - Invoice 10482,success,sess-attack-001
+2026-10-07T14:15:31Z,finance@sapphros.test,SoftDelete,203.0.113.77,Chrome 154 / Linux,<scenario002-payment-change@sapphros.test>,Deleted fraudulent message from Sent Items,success,sess-attack-001
+2026-10-07T14:19:29Z,finance@sapphros.test,MailItemsAccessed,198.51.100.25,Microsoft Outlook / Windows 11,Inbox,Normal mailbox access,success,sess-legit-001

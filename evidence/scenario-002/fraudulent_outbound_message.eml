@@ -1,0 +1,26 @@
+From: Finance Department <finance@sapphros.test>
+To: Northstar Supply Billing <billing@northstar-supply.test>
+Subject: Updated ACH Details - Invoice 10482
+Date: Wed, 07 Oct 2026 14:12:16 +0000
+Message-ID: <scenario002-payment-change@sapphros.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello,
+
+Please update the payment instructions for Invoice 10482 before processing pa=
+yment.
+
+Our ACH details have changed:
+
+Bank: Sapphros Lab Bank
+Routing Number: 000000000
+Account Number: 0000000000
+
+Please confirm once the payment profile has been updated.
+
+Regards,
+Finance Department
+
+LAB ARTIFACT ONLY - synthetic data for defensive training.

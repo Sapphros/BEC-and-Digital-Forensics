@@ -1,0 +1,12 @@
+Scenario 002 - Mailbox Account Compromise
+
+All evidence in this directory is synthetic.
+
+Reserved documentation IP ranges are used:
+- 198.51.100.0/24
+- 203.0.113.0/24
+
+All email domains use .test or other synthetic training identifiers.
+
+No real credentials, organizations, victims, bank accounts, or infrastructure
+are represented.

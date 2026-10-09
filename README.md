@@ -17,11 +17,12 @@ The project demonstrates an end-to-end investigation workflow:
 - SHA-256 integrity verification performed before forensic analysis
 - False-positive context identified in persistence-labeled BAM telemetry
 - Consultant-style incident report produced with findings, limitations, and response recommendations
-- **5 automated tests** enforced through GitHub Actions CI
+- **13 automated tests** enforced through GitHub Actions CI
 
 ### Review the Investigation
 
-- [Incident Report](reports/scenario-001-incident-report.md)
+- [Scenario 001 Incident Report](reports/scenario-001-incident-report.md)
+- [Scenario 002 Incident Report](reports/scenario-002-incident-report.md)
 - [Investigator Timeline](analysis/scenario-001/investigator_timeline.csv)
 - [Email Analysis](analysis/scenario-001/email_analysis.json)
 - [Analysis Code](analysis/scenario-001/)
@@ -57,6 +58,36 @@ The scenario contains several payment-diversion indicators:
 - attachment containing replacement payment instructions
 
 All domains, identities, banking information, and artifacts used in this scenario are synthetic.
+
+## Scenario 002 - Mailbox Account Compromise
+
+Scenario 002 extends the investigation into cloud identity and mailbox compromise.
+
+A finance account experiences suspicious authentication from an unfamiliar source and non-compliant device. The same session is then correlated with malicious mailbox activity.
+
+### Key Results
+
+- suspicious authentication identified from `203.0.113.77`
+- unfamiliar and non-compliant device activity identified
+- malicious inbox rule targeting invoice/payment messages identified
+- external forwarding to a synthetic external address identified
+- existing vendor correspondence accessed
+- fraudulent payment-change email sent from the legitimate mailbox
+- fraudulent message deleted from Sent Items
+- **10 correlated investigator-timeline events**
+- **5 documented incident findings**
+
+The evidence supports mailbox compromise with high confidence.
+
+The evidence does **not** establish how the attacker obtained the valid session or token. The MFA value `satisfied_by_token_claim` is therefore treated as an observation rather than proof of token theft or MFA bypass.
+
+### Scenario 002 Deliverables
+
+- [Investigation Plan](analysis/scenario-002/SCENARIO.md)
+- [Compromise Analysis](analysis/scenario-002/compromise_analysis.json)
+- [Investigator Timeline](analysis/scenario-002/investigator_timeline.csv)
+- [Incident Report](reports/scenario-002-incident-report.md)
+- [Scenario 002 Tests](tests/test_scenario_002.py)
 
 ## Key Findings
 

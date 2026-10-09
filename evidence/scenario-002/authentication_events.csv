@@ -1,0 +1,9 @@
+timestamp,user,ip_address,location,client_app,user_agent,status,mfa_result,device_id,device_compliant,risk_detail,session_id
+2026-10-07T13:41:08Z,finance@sapphros.test,198.51.100.25,"Denver, US",Browser,Chrome 154 / Windows 11,success,success,FIN-WS01,true,none,sess-legit-001
+2026-10-07T13:55:17Z,finance@sapphros.test,198.51.100.25,"Denver, US",Exchange Online,Microsoft Outlook / Windows 11,success,previously_satisfied,FIN-WS01,true,none,sess-legit-001
+2026-10-07T14:02:41Z,finance@sapphros.test,203.0.113.77,"Frankfurt, DE",Browser,Chrome 154 / Linux,failure,not_attempted,,false,invalid_password,
+2026-10-07T14:03:12Z,finance@sapphros.test,203.0.113.77,"Frankfurt, DE",Browser,Chrome 154 / Linux,success,satisfied_by_token_claim,,false,unfamiliar_signin_properties,sess-attack-001
+2026-10-07T14:04:05Z,finance@sapphros.test,203.0.113.77,"Frankfurt, DE",Exchange Online,Chrome 154 / Linux,success,previously_satisfied,,false,unfamiliar_signin_properties,sess-attack-001
+2026-10-07T14:11:47Z,finance@sapphros.test,203.0.113.77,"Frankfurt, DE",Exchange Online,Chrome 154 / Linux,success,previously_satisfied,,false,unfamiliar_signin_properties,sess-attack-001
+2026-10-07T14:19:03Z,finance@sapphros.test,198.51.100.25,"Denver, US",Exchange Online,Microsoft Outlook / Windows 11,success,previously_satisfied,FIN-WS01,true,none,sess-legit-001
+2026-10-07T14:06:14Z,support@sapphros.test,198.51.100.44,"Denver, US",Browser,Edge 154 / Windows 11,success,success,SUPPORT-WS02,true,none,sess-support-001
